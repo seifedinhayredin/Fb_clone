@@ -1,0 +1,79 @@
+body{
+    font: 1.6rem helvetica;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+}
+.Login{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.facebooktext{
+    padding: 10% 0 0 0;
+    font-size: 3rem;
+    color: #1877F2;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.logincontainer{
+    border: rgb(255, 255, 255) .3rem solid;
+    background-color: white;
+    padding: 1rem;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 1rem;
+}
+input[type=email]{
+    width: 100%;
+    padding: 20px 20px;
+    height: 3rem;
+    width: 24rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 8px 8px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 20px 20px;
+    height: 3rem;
+    width: 24rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 8px 8px;
+    box-sizing: border-box;
+}
+.btn{
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 20px 20px;
+    padding: 1rem;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    width: 24rem;
+    background-color: #1877F2;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.ti{
+    text-align: center;
+}
+           
+.forget a{
+    color: #1877F2;
+    font-size: medium;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 8px 8px;
+     text-decoration: none; 
+}
+.forget a:hover { text-decoration: underline;  }
